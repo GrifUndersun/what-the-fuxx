@@ -4,7 +4,7 @@ body{
     background:white;
 }
 a{
-    font-family: 'IBM Plex Sans', sans-serif;
+    
     color:black;
     text-decoration: none;
 }
@@ -32,6 +32,9 @@ a{
     height: auto;
 }
 .logo{
+    min-width: 140px;
+    max-width: 200px;
+    height: auto;
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
     margin-left: 1em;
@@ -55,6 +58,7 @@ a{
 }
 .menu a{
     position: relative;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: auto ;
     padding: 15px;
     margin: 5px;
