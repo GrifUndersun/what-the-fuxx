@@ -1,4 +1,4 @@
-// By : Codicode.com
+﻿// By : Codicode.com
 // Source : http: //www.codicode.com/art/jquery_endless_div_scroll.aspx
 // Licence : Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/)
 

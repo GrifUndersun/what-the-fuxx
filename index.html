@@ -26,7 +26,7 @@
 <body>
     <div class="headset">
         <div class="title">
-            <a href="index.html"><img src="res/logo.svg"></a>
+            <a href="index.html"><span class="logo">WhatTheFuxx</span></a>
         </div>
         <div class="menu">
             <a href="">What</a>
@@ -35,7 +35,10 @@
             <a href="">About</a>
         </div>
     </div>
-    <!--
+    <div class="content">
+
+
+        <!----- Endless Scroll ----->
         <div class="box">
             <div id="track1">
                 <div class="marquee">
@@ -59,27 +62,19 @@
                 </div>
             </div>
         </div>
--->
+    </div>
 
-
-        <div class="track">
-            <div class="content">
-                <span class="x2"> WHAT THE FUXX </span>
-                <span class="x1"> WHAT THE FUXX </span>
-                <span class="x3"> WHAT THE FUXX </span>
-            </div>
-        </div>
 
 
     <script src="endless_scroll.js"></script>
     
-    <script>
+    <script type="text/javascript">
         $(window).load(function () {
             $("#track1").endlessScroll({ 
 			    width: "100%", // Ширина строки
-			    height: "7em", // Высота строки
+			    height: "12em", // Высота строки
 			    steps: -1, // Шаг анимации в пикселях. Если число отрицательное - движение влево, положительное - вправо
-			    speed: 20, // Скорость анимации (0 - максимальная)
+			    speed: 15, // Скорость анимации (0 - максимальная)
 			    mousestop: false // Останавливать ли полосу при наведении мыши (да - true, нет - false)
 		    });
 	    });
@@ -87,7 +82,7 @@
         $(window).load(function () {
             $("#track2").endlessScroll({ 
 			    width: "100%", // Ширина строки
-			    height: "7em", // Высота строки
+			    height: "12em", // Высота строки
 			    steps: 1, // Шаг анимации в пикселях. Если число отрицательное - движение влево, положительное - вправо
 			    speed: 0, // Скорость анимации (0 - максимальная)
 			    mousestop: false // Останавливать ли полосу при наведении мыши (да - true, нет - false)
@@ -97,9 +92,9 @@
         $(window).load(function () {
             $("#track3").endlessScroll({ 
 			    width: "100%", // Ширина строки
-			    height: "7em", // Высота строки
+			    height: "12em", // Высота строки
 			    steps: -1, // Шаг анимации в пикселях. Если число отрицательное - движение влево, положительное - вправо
-			    speed: 50, // Скорость анимации (0 - максимальная)
+			    speed: 30, // Скорость анимации (0 - максимальная)
 			    mousestop: false // Останавливать ли полосу при наведении мыши (да - true, нет - false)
 		    });
 	    });

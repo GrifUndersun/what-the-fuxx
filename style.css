@@ -31,6 +31,21 @@ a{
     width: auto;
     height: auto;
 }
+.logo{
+    min-width: 140px;
+    max-width: 200px;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-left: 1em;
+    color: rgba(0, 0, 0, 0.75);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none; 
+}
 .title img{
     min-width: 140px;
     max-width: 200px;
@@ -52,7 +67,8 @@ a{
     opacity: .5;
 }
 
-
+.content{
+}
 
 
 .box{
@@ -64,7 +80,7 @@ a{
 
 .marquee span{
     font-family: 'Roboto', sans-serif;
-    font-size: 7em;
+    font-size: 12em;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none;   /* Chrome/Safari/Opera */
     -khtml-user-select: none;    /* Konqueror */
@@ -82,4 +98,27 @@ a{
 }
 .x3{
     color: #ccc;
+}
+
+
+.track1{
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+.track span{
+    white-space: nowrap;
+    width: 100%;
+}
+
+@keyframes track{
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
